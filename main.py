@@ -11,6 +11,12 @@ def surname():
     return b
 
 
+def friend():
+    c = names.get_full_name()
+    return c
+
+
 Pers_name = name()
 Pers_surname = surname()
-print(f'My name is {Pers_name} {Pers_surname}')
+friend_of_mine = friend()
+print(f'My name is {Pers_name} {Pers_surname}. I have a friend - {friend_of_mine}.')
